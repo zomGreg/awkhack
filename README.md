@@ -11,7 +11,7 @@
 
 [zomgreg xlog data](http://alt.org/nethack/player-all-xlog.php?player=zomGreg)
 
-2. You want the parts only that look like:
+1. You want the parts only that look like:
 
     ```
 version=3.4.3:points=2432:deathdnum=2:deathlev=5:maxlvl=5:hp=-2:maxhp=67:deaths=1:deathdate=20110305:birthdate=20110305:uid=5:role=Val:race=Hum:gender=Fem:align=Neu:name=zomGreg:death=killed by an arrow:conduct=3968:turns=1030:achieve=0:nconducts=5:nachieves=0:realtime=1403:starttime=1299319989:endtime=1299321420:gamedelta=1431:gender0=Fem:align0=Neu:flags=0    
@@ -21,7 +21,7 @@ version=3.4.3:points=1286:deathdnum=0:deathlev=4:maxlvl=4:hp=0:maxhp=50:deaths=1
 
 So make sure you cut out any of the markup if you're using curl or wget to fetch.
 
-3. Run the script
+1. Run the script
 
     awk -f stats.awk <your file>
     
