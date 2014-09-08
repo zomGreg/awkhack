@@ -3,7 +3,7 @@
 ## Requirements
 
 1. Awk
-2. Nethack xlogfile
+2. Nethack xlogfile (colon-delimited parts only)
 
 ## Quick Start
 
@@ -32,7 +32,7 @@ if your file is called `2014-09-08`, you would execute it like this:
 ### Sample Output
 
 ```
-➜  awkhack git:(master) ✗ awk -f stats.awk 2014-09-08
+➜  awkhack git:(master) awk -f stats.awk 2014-09-08
 
             [ 323 games ]
 
